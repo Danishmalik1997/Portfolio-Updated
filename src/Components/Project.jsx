@@ -92,7 +92,7 @@ const Project = () => {
         left-0 md:left-auto md:right-0 flex items-start p-4 md:p-0 md:border-none md:bg-transparent "
         >
           <a
-            href="https://filmy-world-sigma.vercel.app/"
+            href=" https://pizza-sizza-delivery-app.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
