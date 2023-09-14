@@ -8,7 +8,7 @@ const About = () => {
         <h1 className="text-xl font-semibold md:text-4xl"> About Me </h1>
         <p className="text-sm mt-6 text-gray-600">
           I am a passionate and self-taught Full-Stack Developer residing in
-          Saharanpur, India. At the age of 25, I have dedicated myself to the
+          Saharanpur, India. At the age of 22, I have dedicated myself to the
           exciting world of web development and have embarked on a journey of
           constant learning and growth. From a young age, I was fascinated by
           technology and its ability to shape the world around us. This

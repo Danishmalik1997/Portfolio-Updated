@@ -1,5 +1,5 @@
 import React from "react";
-import DensityMediumIcon from '@mui/icons-material/DensityMedium';
+import Rightmenu from './Rightmenu'
 const Header = () => {
   return (
     <div className="text-black shadow-lg hover:shadow-blue-200 p-4 md:p-6 top-0 
@@ -14,7 +14,7 @@ const Header = () => {
         <a className="hover:text-blue-500" href="#contact">Contact</a>
       </div>
       <div className="md:hidden"> 
-        <DensityMediumIcon/>
+        <Rightmenu/> 
       </div>
     </div>
   );

@@ -64,6 +64,18 @@ const techStack = [
   },
   {
     id: 10,
+    name: "jQuery",
+    image: "https://technokrats.in/wp-content/uploads/2020/11/Content1-7.png",
+    refrenceLink: "https://api.jquery.com/",
+  },
+  {
+    id: 11,
+    name: "Material_Ui",
+    image: "https://v4.material-ui.com/static/logo.png",
+    refrenceLink: "https://mui.com/material-ui/",
+  },
+  {
+    id: 12,
     name: "Github",
     image: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
     refrenceLink: "https://github.com/",
