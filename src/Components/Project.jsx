@@ -1,18 +1,16 @@
 import React from "react";
 import Filmy from "../images/Fimyworld.png";
 import Pizza from "../images/Pizza-sizza.png";
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const Project = () => {
   return (
-    <div id="project">
-      <h1 className="mt-24 text-xl font-mono font-bold">
+    <div id="project" className="p-10 md:p-20">
+      <h1 className="mt-24 text-xl text-white md:text-3xl font-mono font-bold">
         Some Things I've Built
       </h1>
-      <div
-        className="mt-16 w-full rounded-md flex flex-col-reverse relative items-start bg-gray-200 shadow-xl shadow-slate-600]
-      md:flex-row md:gap-3 mb-20 overflow-hidden md:overflow-visible md:p-3"
-        style={{ opacity: 1 }}
-      >
+      <div className="mt-16 w-full rounded-md flex flex-col-reverse relative items-center bg-gray-200 shadow-xl shadow-slate-600]
+      md:flex-row md:gap-3 mb-20 overflow-hidden md:overflow-visible md:p-5"  style={{ opacity: 1 }} >
         <div className="md:w-1/2 p-5 ">
           <div
             className="mt-3 py-5 ml-5 relative border-t-2 border-gray-300
@@ -53,13 +51,12 @@ const Project = () => {
             rel="noreferrer"
           >
             <img src={Filmy} alt="" />
+            <OpenInNewIcon/>
           </a>
         </div>
       </div>
-      <div
-        className="mt-16 w-full rounded-md flex flex-col-reverse relative items-center bg-gray-200 shadow-xl shadow-slate-600]
-      md:flex-row md:gap-3 mb-20 overflow-hidden md:overflow-visible md:p-3"
-        style={{ opacity: 1 }}
+      <div className="mt-16 w-full rounded-md flex flex-col-reverse relative items-center bg-gray-200 shadow-xl shadow-slate-600]
+      md:flex-row md:gap-3 mb-20 overflow-hidden md:overflow-visible md:p-3" style={{ opacity: 1 }}
       >
         <div className="md:w-1/2 p-5">
           <div
@@ -93,6 +90,7 @@ const Project = () => {
             rel="noreferrer"
           >
             <img src={Pizza} alt="" />
+            <OpenInNewIcon/>
           </a>
         </div>
       </div>
