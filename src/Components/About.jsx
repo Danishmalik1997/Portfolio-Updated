@@ -3,10 +3,10 @@ import profile from '../images/web_image.jpeg'
 
 const About = () => {
   return (
-    <div id="about" className="font-mono p-10 md:p-20 mt-12 flex flex-col items-center gap-8 md:flex-row md:gap-32">
+    <div id="about" className="font-mono md:p-20 mt-12 flex flex-col items-center gap-8 md:flex-row md:gap-32">
       <div className="md:w-1/2 lg:w-2/3" >
         <h1 className="text-xl text-white font-semibold md:text-4xl"> About Me </h1>
-        <p className="text-sm mt-6 text-gray-500">
+        <p className="text-sm mt-6 text-gray-500 md:text-xl">
           I am a passionate and self-taught Full-Stack Developer residing in
           Saharanpur, India. At the age of 22, I have dedicated myself to the
           exciting world of web development and have embarked on a journey of

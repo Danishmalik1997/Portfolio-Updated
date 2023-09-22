@@ -8,7 +8,7 @@ const Footer = () => {
   const emailAddress = 'dev_danish1997@hotmail.com'
   const phoneNumber = '8869060519'
   return (
-    <section id="contact" className="flex justify-center text-center p-6">
+    <section id="contact" className="flex justify-center text-center p-10">
       <div className="">
          <div className="mb-6 text-white">
          <h1 className="text-4xl mb-8"> Get in Touch! </h1>

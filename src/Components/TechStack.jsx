@@ -82,7 +82,7 @@ const techStack = [
 
 const TechStack = () => {
   return (
-    <div className="flex p-10 md:p-20 flex-row flex-wrap gap-6 justify-center cursor-pointer mt-10 lg:gap-12 lg:mt-32">
+    <div className="flex md:p-16 flex-row flex-wrap gap-6 justify-center cursor-pointer mt-10 lg:gap-20 lg:mt-32">
       {techStack.map((items, index) => (
         <div className="bg-gray-400 border-2 border-gray-200 hover:shadow-blue-500 shadow-lg transition ease-in-out delay-200  hover:-translate-y-1 hover:scale-110 duration-700 rounded-full" key={index}>
           <a href={items.refrenceLink} target="_blank" rel="noopener noreferrer">
