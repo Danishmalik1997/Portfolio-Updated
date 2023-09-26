@@ -5,6 +5,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
+ 
+
+ 
 
 const links = [
   { id: 1, title: "Homepage", url: "#home" },
@@ -18,24 +21,12 @@ const Menu = () => {
 
   return (
     <div className=" ">
-      {open ? (
-        <CloseIcon
-        onClick={() => setOpen(false)}
-        className="cursor-pointer"
-        height={20}
-        width={30}
-        />
-      ) : (
-        <SortIcon
-        onClick={() => setOpen(true)}
-        className="cursor-pointer"
-        height={20}
-        width={30}
-        />
-      )}
+      {open ? (<CloseIcon  onClick={() => setOpen(false)} className="cursor-pointer" height={20} width={30}/>) 
+      : 
+      (<SortIcon onClick={() => setOpen(true)} className="cursor-pointer" height={20} width={30}/>)}
+
       {open && <div className="bg-black w-full z-10 text-2xl flex gap-14 flex-col items-center justify-center absolute left-0 h-screen">
-        {links.map((link) => (
-          <a onClick={() => setOpen(false)} key={link.id} href={link.url}>
+        {links.map((link) => (<a onClick={() => setOpen(false)} key={link.id} href={link.url}>
             {link.title}
           </a>
         ))}

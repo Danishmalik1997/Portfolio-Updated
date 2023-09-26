@@ -16,7 +16,7 @@ const Home = () => {
         </h1>
         <Resume/> 
       </div>
-      <div className="shadow-xl border-2 border-gray-400 rounded-md md:flex-row hover:shadow-blue-500 transition ease-in-out delay-200  hover:-translate-y-1 hover:scale-110 duration-700 ">
+      <div className="shadow-xl hover:animate-pulse border-2 border-gray-400 rounded-md md:flex-row hover:shadow-blue-500 transition ease-in-out delay-200  hover:-translate-y-1 hover:scale-110 duration-700 ">
          <img src={WorkingMan} alt="" className="object-cover w-80 md:h-64 md:w-96" />
       </div>
     </div>
