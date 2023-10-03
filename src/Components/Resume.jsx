@@ -1,5 +1,5 @@
 import React from "react";
-import NewResume from '../resources/Danish_Resume.pdf'
+import NewResume from '../resources/Danish_Resume FSD.pdf'
 import { Button } from "@mui/material";
 import DownloadIcon from '@mui/icons-material/Download';
 
